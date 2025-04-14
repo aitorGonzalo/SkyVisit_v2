@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SkyVisit</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="hint_nombre_lugar">Nombre del lugar</string>
+    <string name="btn_tomar_foto">📸 Tomar foto</string>
+    <string name="desc_vista_previa_imagen">Vista previa de la imagen</string>
+    <string name="btn_obtener_ubicacion">📍 Obtener ubicación</string>
+    <string name="texto_ubicacion_inicial">Latitud: -, Longitud: -</string>
+    <string name="btn_subir_lugar">⬆️ Subir lugar</string>
+    <string name="logo_app">Icono de SkyVisit</string>
+    <!-- Strings para ListadoLugaresActivity -->
+    <string name="titulo_lugares">Lugares de interés</string>
+    <string name="añadir_lugar">Añadir Lugar</string>
+
+    <!-- Strings para el item de lugar en el RecyclerView -->
+    <string name="nombre_lugar">Nombre del Lugar</string>
+    <string name="latitud">Latitud: </string>
+    <string name="longitud">Longitud: </string>
+    <string name="mostrar_lugar_mas_gustado">📍 Mostrar lugar más gustado</string>
+    <string name="guardar_en_galeria">📥 Guardar en Galeria</string>
+    <string name="eliminar_de_galeria">🗑️ Eliminar de Galeria</string>
+    <string name="ver_im_genes_guardadas">Ver imágenes guardadas</string>
+    <string name="lugares">🌍 Lugares Visitados: 0</string>
+    <string name="im_genes_0">🖼️ Imágenes Guardadas: 0</string>
+
+
+</resources>

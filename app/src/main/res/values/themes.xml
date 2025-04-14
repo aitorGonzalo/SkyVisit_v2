@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SkyVisit" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Fondo y superficies -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorTextPrimary</item>
+
+        <!-- Textos -->
+        <item name="android:textColor">@color/colorTextPrimary</item>
+
+
+        <!-- Botones personalizados -->
+        <item name="materialButtonStyle">@style/Widget.SkyVisit.Button</item>
+
+        <!-- Tarjetas personalizadas -->
+        <item name="cardViewStyle">@style/SkyVisit.LugarCard</item>
+
+        <!-- Fuente -->
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Estilo de botón global -->
+    <style name="Widget.SkyVisit.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Estilo para las tarjetas de los lugares -->
+    <style name="SkyVisit.LugarCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:background">@drawable/rounded_card</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

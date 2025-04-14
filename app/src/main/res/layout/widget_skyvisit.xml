@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWidgetTextoLugares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lugares"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvWidgetTextoImagenes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/im_genes_0"
+            android:textSize="16sp"
+            android:textColor="#555555" />
+    </LinearLayout>
+</FrameLayout>

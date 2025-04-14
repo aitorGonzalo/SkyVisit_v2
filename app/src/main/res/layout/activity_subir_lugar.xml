@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Nombre del lugar -->
+        <EditText
+            android:id="@+id/etNombreLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre_lugar"            android:padding="12dp"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para tomar foto -->
+        <Button
+            android:id="@+id/btnTomarFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tomar_foto"            android:layout_marginBottom="12dp" />
+
+        <!-- Vista previa de la foto -->
+        <ImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/desc_vista_previa_imagen"/>
+        <!-- Botón para obtener ubicación -->
+        <Button
+            android:id="@+id/btnObtenerUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_obtener_ubicacion"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Texto para mostrar latitud y longitud -->
+        <TextView
+            android:id="@+id/tvUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_ubicacion_inicial"            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para subir el lugar -->
+        <Button
+            android:id="@+id/btnSubirLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_subir_lugar"/>
+    </LinearLayout>
+</ScrollView>

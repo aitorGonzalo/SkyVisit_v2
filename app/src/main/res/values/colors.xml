@@ -1,0 +1,18 @@
+<resources>
+    <!-- Tonos suaves y modernos -->
+    <color name="colorPrimary">#2196F3</color> <!-- Azul suave -->
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#4CAF50</color> <!-- Verde suave -->
+
+    <color name="colorBackground">#FFFFFF</color> <!-- Fondo blanco -->
+    <color name="colorSurface">#F5F5F5</color> <!-- Gris claro -->
+
+    <color name="colorTextPrimary">#212121</color> <!-- Gris oscuro -->
+    <color name="colorTextSecondary">#757575</color> <!-- Gris medio -->
+
+    <!-- Botones personalizados -->
+    <color name="colorButtonBlue">#42A5F5</color>
+    <color name="colorButtonRed">#EF5350</color>
+    <color name="colorButtonGreen">#81C784</color>
+
+</resources>
