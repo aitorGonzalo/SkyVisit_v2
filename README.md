@@ -40,3 +40,45 @@ A través de una interfaz intuitiva y visualmente atractiva, los usuarios pueden
     Versión mínima: Android 10 (API 29)
 
     APIs utilizadas: Google Maps, Fused Location Provider, etc.
+
+🚀 Cómo lanzar el proyecto en Android Studio
+🧱 Requisitos previos
+
+    Android Studio Giraffe | 2022.3.1 o superior
+
+    Android SDK API 29 (Android 10) o superior
+
+    Gradle compatible (normalmente configurado en el proyecto)
+
+    Java JDK 8 o superior
+
+📥 Clonar el repositorio
+
+git clone (https://github.com/aitorGonzalo/SkyVisit_v2)
+
+
+🛠 Abrir en Android Studio
+
+    Abre Android Studio
+
+    Selecciona "Open an existing project"
+
+    Navega a la carpeta del proyecto (donde está build.gradle) y ábrela
+
+    Espera a que Gradle sincronice los archivos y descargue las dependencias
+
+▶️ Ejecutar la aplicación
+
+    Conecta un dispositivo Android físico (o crea un emulador)
+
+    Pulsa el botón Run (▶️) en Android Studio
+
+    La app se compilará y ejecutará automáticamente en el dispositivo
+
+📦 Generar APK
+
+Para generar el .apk manualmente:
+
+    Ve a Build > Build Bundle(s) / APK(s) > Build APK(s)
+
+    Una vez completado, Android Studio mostrará el enlace para abrir la carpeta donde se guarda el .apk
